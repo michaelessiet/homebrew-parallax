@@ -37,11 +37,11 @@ jobs:
         os: [ubuntu-latest, macos-latest]
         include:
           - os: macos-latest
-            artifact_name: parallel
-            asset_name: parallel-darwin-amd64
+            artifact_name: parallax
+            asset_name: parallax-darwin-amd64
           - os: ubuntu-latest
-            artifact_name: parallel
-            asset_name: parallel-linux-amd64
+            artifact_name: parallax
+            asset_name: parallax-linux-amd64
           # - os: windows-latest
           #   artifact_name: bert.exe
           #   asset_name: bert-windows-amd64.exe
